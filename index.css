@@ -30,6 +30,13 @@ html {
   margin-bottom: 5px;
 }
 
+.head2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 nav {
   margin-left: auto;
   margin-right: auto;
@@ -88,6 +95,23 @@ nav {
   h1 {
     font-size: 12px;
   }
+}
+
+table{
+  width: 80%;
+  text-align: center;
+}
+
+tr{
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.tableheading{
+  background-color: rgb(230, 230, 230);
+}
+
+.col{
+  border-left: 1px solid rgb(226, 226, 226);
+  border-right: 1px solid rgb(226, 226, 226);
 }
 
 /*# sourceMappingURL=index.css.map */
