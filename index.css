@@ -88,7 +88,7 @@ nav {
 #link-style:hover {
   text-decoration: none;
   color: #000000;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 @media (max-width: 499px) {
