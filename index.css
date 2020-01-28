@@ -88,7 +88,7 @@ nav {
 #link-style:hover {
   text-decoration: none;
   color: #000000;
-  margin-left: 3px;
+  margin-left: 2px;
 }
 
 @media (max-width: 499px) {
@@ -96,22 +96,22 @@ nav {
     font-size: 12px;
   }
 }
-
-table{
+table {
   width: 80%;
   text-align: center;
 }
 
-tr{
-  border-bottom: 1px solid rgb(187, 187, 187);
-}
-.tableheading{
-  background-color: rgb(230, 230, 230);
+tr {
+  border-bottom: 1px solid #bbbbbb;
 }
 
-.col{
-  border-left: 1px solid rgb(226, 226, 226);
-  border-right: 1px solid rgb(226, 226, 226);
+.tableheading {
+  background-color: #e6e6e6;
+}
+
+.col {
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
 }
 
 /*# sourceMappingURL=index.css.map */
