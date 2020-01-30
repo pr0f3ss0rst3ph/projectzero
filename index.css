@@ -65,7 +65,7 @@ footer {
 .item2:hover,
 .item3:hover,
 .item4:hover {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   color: #000000;
   letter-spacing: 0.3em;
   transition: 0.5s;
