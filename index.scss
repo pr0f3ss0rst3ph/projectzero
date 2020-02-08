@@ -1,8 +1,13 @@
+$headingsize: 29px;
+$reducedsize: 24px;
+$smallestsize: 20px;
+
 html {
   scroll-behavior: smooth;
 }
 
 #heading1 {
+  font-size: $headingsize;
   text-align: center;
   background-color: #ffffff;
   padding: 3px;
@@ -106,10 +111,20 @@ nav {
   color: #000000;
   margin-left: 2px;
 }
+@media only screen and (max-width: 577px){
+  #heading1 {
+    font-size: $smallestsize;
+  }
+}
 
-@media (max-width: 499px) {
-  .heading1 {
-    font-size: 12px;
+@media only screen and (max-width: 690px) and (min-width: 578px){
+  #heading1 {
+    font-size: $reducedsize;
+  }
+}
+@media only screen and (min-width: 691px){
+  #heading1{
+    font-size: $headingsize;
   }
 }
 

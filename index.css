@@ -3,6 +3,7 @@ html {
 }
 
 #heading1 {
+  font-size: 29px;
   text-align: center;
   background-color: #ffffff;
   padding: 3px;
@@ -91,9 +92,19 @@ nav {
   margin-left: 2px;
 }
 
-@media (max-width: 499px) {
-  h1 {
-    font-size: 12px;
+@media only screen and (max-width: 577px) {
+  #heading1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 690px) and (min-width: 578px) {
+  #heading1 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 691px) {
+  #heading1 {
+    font-size: 29px;
   }
 }
 table {
